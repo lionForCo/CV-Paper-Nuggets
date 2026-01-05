@@ -1,0 +1,21 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境文件夹 (假设你有时会将环境建在项目里)
+env/
+venv/
+.venv/
+.conda/
+
+# 忽略系统文件
+.DS_Store
+
+# 忽略 VS Code 配置 (个人偏好，可选)
+.vscode/
+
+# 忽略大型数据文件 (GitHub 有大小限制)
+*.pth
+*.weights
+data/
+datasets/
